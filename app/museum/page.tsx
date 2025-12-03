@@ -5,7 +5,7 @@ import { PointerLockControls, Stars, Float, Text, useTexture } from '@react-thre
 import { Suspense } from 'react';
 import Player from './player'; 
 // Import the file you just made
-
+//test comment
 // --- COMPONENT: DOCUMENT / ARTIFACT ---
 // This represents your collected papers/documents inside the case
 function DocumentDisplay({ position, color = "white" }: { position: [number, number, number], color?: string }) {
@@ -30,6 +30,7 @@ function DocumentDisplay({ position, color = "white" }: { position: [number, num
       <mesh position={[0, -0.1, 0.01]}>
         <planeGeometry args={[0.3, 0.02]} />
         <meshBasicMaterial color="#333" />
+        
       </mesh>
     </group>
   );
