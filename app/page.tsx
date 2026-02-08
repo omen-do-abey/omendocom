@@ -79,7 +79,7 @@ function HeroSection() {
             }}
           >
             <Image
-              src="/me.png"
+              src="/me.jpeg"
               alt="Omindu's Portrait"
               fill
               priority
