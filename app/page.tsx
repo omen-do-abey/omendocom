@@ -79,9 +79,8 @@ function HeroSection() {
             }}
           >
             <Image
-              src="/me.jpeg"
+              src="/me.png"
               alt="Omindu's Portrait"
-              fill
               priority
               className="object-cover grayscale hover:grayscale-0 transition-all duration-700 ease-in-out"
             />
